@@ -15,6 +15,7 @@ using MCard40.Model.Identity;
 using Microsoft.AspNetCore.Identity;
 using MCard40.Web.Areas.Identity.Data;
 using System.Security.Claims;
+using Xceed.Words.NET;
 
 namespace MCard40.Web.Controllers
 {
@@ -142,7 +143,7 @@ namespace MCard40.Web.Controllers
                     cardPage.DoctorId = doc.Id;
                     cardPage.DateСreation = DateTime.Now;
                     _serviceCard.Add(cardPage);
-                    return RedirectToAction(nameof(PatientCard), routeValues: new { id = cardPage.PatientId});
+                    return RedirectToAction(nameof(PatientCard), routeValues: new { id = cardPage.PatientId });
                 }
             }
             return RedirectToAction(nameof(Index));
@@ -154,13 +155,26 @@ namespace MCard40.Web.Controllers
             var cardPage = _serviceCard.GetById(id);
             //var user = await _userManager.FindByIdAsync(UserId);
             //var doc = _dbContext.Doctors.Include(x => x.User).FirstOrDefault(x => x.User.Id == user.Id);
-           
+
             if (cardPage == null)
             {
                 return NotFound();
             }
             //ViewBag.DocId = cardPage.DoctorId;
             //ViewBag.PatId = cardPage.PatientId;
+
+
+            //string wwwrootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "MyFiles");
+            //using (DocX doc = DocX.Create($"{wwwrootPath}/MedicalCard_{cardPage.Id}.docx"))
+            //{
+            //    doc.InsertParagraph($"Название болезни: {cardPage.Disease}");
+            //    doc.InsertParagraph($"Информация о болезни: {cardPage.DiseaseInfo}");
+            //    doc.InsertParagraph($"Лечение: {cardPage.Treatment}");
+            //    doc.InsertParagraph($"Оценка: {cardPage.Assessment}");
+
+            //    doc.Save();
+            //}
+
             return View(cardPage);
         }
 
@@ -194,5 +208,88 @@ namespace MCard40.Web.Controllers
 
             return View(cardPage);
         }
+
+
+        //    [HttpGet]
+        //    public async Task<IActionResult> PrintToDocx(int? id)
+        //    {
+        //        string wwwrootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "MyFiles");
+
+        //        var cardPage = _serviceCard.GetById(id);
+        //        if (cardPage == null)
+        //        {
+        //            return NotFound();
+        //        }
+
+        //        // Создаем документ DocX
+        //        using (DocX doc = DocX.Create($"{wwwrootPath}/MedicalCard_{cardPage.Id}.docx"))
+        //        {
+        //            // Добавляем данные в документ
+        //            doc.InsertParagraph($"Название болезни: {cardPage.Disease}");
+        //            doc.InsertParagraph($"Информация о болезни: {cardPage.DiseaseInfo}");
+        //            doc.InsertParagraph($"Лечение: {cardPage.Treatment}");
+        //            doc.InsertParagraph($"Оценка: {cardPage.Assessment}");
+
+        //            // Сохраняем документ
+        //            doc.Save();
+        //        }
+
+        //        return RedirectToAction(nameof(Index));
+        //    }
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> PrintToDocx(int? id)
+        {
+            var cardPage = _serviceCard.GetById(id);
+            if (cardPage == null)
+            {
+                return NotFound();
+            }
+            var cardPatient = _dbContext.CardPages.Where(c => c.Id == id).FirstOrDefault();
+            var doctorId = cardPage.DoctorId;
+            var patientId = cardPage.PatientId;
+
+            var docId = _dbContext.Doctors.Where(d => d.Id == doctorId).FirstOrDefault();
+            var patId = _dbContext.Patients.Where(d => d.Id == patientId).FirstOrDefault();
+            var dataNow = DateTime.Now;
+            if (docId != null)
+            {
+                string fullName = docId.FullName;
+                string post = docId.Post;
+                string innDoc = docId.ITN;
+                string podpis = docId.UserId;
+                string namePat = patId.FullName;
+                string innPat = patId.ITN;
+
+                string templatePath = Path.Combine(Directory.GetCurrentDirectory(), "Doc", "ListMedCard1.docx");
+
+                string timestamp = DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss");
+                string outputPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "MyFiles", $"Рецепт_{timestamp}.docx");
+
+
+                using (DocX doc = DocX.Load(templatePath))
+                {
+                    doc.ReplaceText("{Disease}", cardPage.Disease);
+                    doc.ReplaceText("{DiseaseInfo}", cardPage.DiseaseInfo);
+                    doc.ReplaceText("{Treatment}", cardPage.Treatment);
+                    doc.ReplaceText("{Assessment}", cardPage.Assessment.ToString());
+                    doc.ReplaceText("{Treatment}", cardPage.Treatment);
+                    doc.ReplaceText("{FullNameDoc}", fullName);
+                    doc.ReplaceText("{professionDoc}", post);
+                    doc.ReplaceText("{InnDoctor}", innDoc);
+                    doc.ReplaceText("{FullNamePatient}", namePat);
+                    doc.ReplaceText("{InnPatient}", innPat);
+                    doc.ReplaceText("{DataCreation}", cardPage.DateСreation.ToString());
+                    doc.ReplaceText("{DataNow}", dataNow.ToString());
+                    doc.ReplaceText("{Podpis}", podpis);
+
+                    doc.SaveAs(outputPath);
+                }
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

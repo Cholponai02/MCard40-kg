@@ -22,6 +22,36 @@
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- Подключение стилей Redactor -->
+    <link rel="stylesheet" href="~/Content/Redactor/redactor.css" />
+
+    <!-- Подключение скриптов jQuery и Redactor -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="~/Scripts/Redactor/redactor.js"></script>
+
+    <link rel="stylesheet" href="/js/redactor/redactor.css" />
+    <script src="/js/redactor/redactor.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(
+            function () {
+                $('#redactor_content').redactor();
+            }
+        );
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then((registration) => {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                })
+                .catch((error) => {
+                    console.error('Service Worker registration failed:', error);
+                });
+        }
+    </script>
+
+    <link rel="manifest" href="/manifest.json" />
 
 </head>
 <body>
@@ -123,9 +153,9 @@
 			    </div>
 			</div>
             </div>
-			<p class="footer-company-name">MCard40 © 2022</p>
+			<p class="footer-company-name">MCard40 © 2023</p>
 		</footer>
-
+  
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

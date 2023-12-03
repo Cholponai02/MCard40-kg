@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MCard40.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MCard40.Web.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\MyFiles\\MedicalCard_1.docx",
+      "PackagePath": "staticwebassets\\MyFiles\\MedicalCard_1.docx"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\MyFiles\\MedicalCard_3.docx",
+      "PackagePath": "staticwebassets\\MyFiles\\MedicalCard_3.docx"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\about\\css\\animate.css",
+      "PackagePath": "staticwebassets\\about\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\CardCreate.css",
+      "PackagePath": "staticwebassets\\css\\CardCreate.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\Details.css",
+      "PackagePath": "staticwebassets\\css\\Details.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\Otziv.css",
+      "PackagePath": "staticwebassets\\css\\Otziv.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\anketa.css",
+      "PackagePath": "staticwebassets\\css\\anketa.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\news.css",
+      "PackagePath": "staticwebassets\\css\\news.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\sidebar.css",
+      "PackagePath": "staticwebassets\\css\\sidebar.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\css\\type.css",
+      "PackagePath": "staticwebassets\\css\\type.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\flag.png",
+      "PackagePath": "staticwebassets\\flag.png"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\MCard40.png",
+      "PackagePath": "staticwebassets\\image\\MCard40.png"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\docIcon.jpg",
+      "PackagePath": "staticwebassets\\image\\docIcon.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\favicon.ico",
+      "PackagePath": "staticwebassets\\image\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\gerb.png",
+      "PackagePath": "staticwebassets\\image\\gerb.png"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\pacientIcon.jpg",
+      "PackagePath": "staticwebassets\\image\\pacientIcon.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\pic1.jpg",
+      "PackagePath": "staticwebassets\\image\\pic1.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\pic2.png",
+      "PackagePath": "staticwebassets\\image\\pic2.png"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\pic3.jpg",
+      "PackagePath": "staticwebassets\\image\\pic3.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\quest.png",
+      "PackagePath": "staticwebassets\\image\\quest.png"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\slid3.png",
+      "PackagePath": "staticwebassets\\image\\slid3.png"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\slide1.png",
+      "PackagePath": "staticwebassets\\image\\slide1.png"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\slide2.png",
+      "PackagePath": "staticwebassets\\image\\slide2.png"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\10.1top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\10.1top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\11.1top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\11.1top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\12top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\12top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\13.1top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\13.1top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\1top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\1top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\2.1top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\2.1top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\3.1top.jpeg",
+      "PackagePath": "staticwebassets\\image\\top\\3.1top.jpeg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\4.1top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\4.1top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\5.1op.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\5.1op.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\7.1top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\7.1top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\8.1top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\8.1top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\image\\top\\9.1top.jpg",
+      "PackagePath": "staticwebassets\\image\\top\\9.1top.jpg"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\js\\layout.js",
+      "PackagePath": "staticwebassets\\js\\layout.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\js\\layout.min.js",
+      "PackagePath": "staticwebassets\\js\\layout.min.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\news\\css\\style.css",
+      "PackagePath": "staticwebassets\\news\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\news\\js\\main.js",
+      "PackagePath": "staticwebassets\\news\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Flash\\Last\\MCard40\\wwwroot\\service-worker.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MCard40.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MCard40.Web.props",
+      "PackagePath": "build\\MCard40.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MCard40.Web.props",
+      "PackagePath": "buildMultiTargeting\\MCard40.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MCard40.Web.props",
+      "PackagePath": "buildTransitive\\MCard40.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
